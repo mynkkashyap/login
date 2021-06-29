@@ -65,15 +65,15 @@
 				<p>Email: ".$email."</p>
 				<p>Password: ".$_POST['password']."</p>
 				<p>Please click the link below to activate your account.</p>
-				<h4><a href='https://maynk.xyz/Video/activate.php?uid=$uid&code=$code'>Activate My Account</h4>
+				<h4><a href='https://........./activate.php?uid=$uid&code=$code'>Activate My Account</h4>
 				</body>
 				</html>
 				";
 			//dont forget to include content-type on header if your sending html
 			$headers = "MIME-Version: 1.0" . "\r\n";
 			$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-			$headers .= "From:  maynkxyz@maynk.xyz". "\r\n" .
-						"CC: maynkxyz@maynk.xyz";
+			$headers .= "From:  you@email". "\r\n" .
+						"CC:you@email";
 
 		mail($to,$subject,$message,$headers);
 
