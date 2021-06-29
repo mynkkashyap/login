@@ -60,8 +60,8 @@ $query=mysqli_query($conn,"select * from user where email='$email'");
 			//dont forget to include content-type on header if your sending html
 			$headers = "MIME-Version: 1.0" . "\r\n";
 			$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-			$headers .= "From:  maynkxyz@maynk.xyz". "\r\n" .
-						"CC: maynkxyz@maynk.xyz";
+			$headers .= "From: your@email". "\r\n" .
+						"CC: your@email";
 
 		mail($to,$subject,$message,$headers);
 
