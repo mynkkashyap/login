@@ -53,7 +53,7 @@ $query=mysqli_query($conn,"select * from user where email='$email'");
 				<p>Email: ".$email."</p>
 				<p>Password: ".$_POST['password']."</p>
 				<p>Please click the link below to activate your account.</p>
-				<h4><a href='https://maynk.xyz/Video/action.php?code=$code'>Activate My Account</h4>
+				<h4><a href='https://........./action.php?code=$code'>Activate My Account</h4>
 				</body>
 				</html>
 				";
