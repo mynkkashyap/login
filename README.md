@@ -1,5 +1,5 @@
 # login
-Working login logout system with email verification and forgot password support
+Working login logout system with email verification and forgot password support  </br>
 INSTALLATION </br>
 #1.>Edit conn.php and enter your sql server " username,password and dbname " </br>
 #2.>run sample.sql file in your sql server </br>
